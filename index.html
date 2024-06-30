@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Tamabank | Providing better banking service for students</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="icon.png" class="h-8" alt="logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tamabank</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#home"
+              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#clients"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Our
+              Clients</a>
+          </li>
+          <li>
+            <a href="#about"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#services"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#contact"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="flex flex-col md:flex-row font-inter items-center justify-center ">
+      <div class="flex-1 p-12">
+
+        <p class="font-bold text-7xl">Student-oriented<br>banking.</p>
+        <p class="mb-12 mt-6">Convenient banking built for student needs. Banking, Tuition, Payments.</p>
+
+        <div class="hero_contact" class="">
+
+          <button type="button"
+            class="bg-indigo-600 text-white hover:bg-black w-48 py-4 rounded-full hover:text-white transition-all">
+            <div class="flex px-6 justify-between items-center">
+              <span>Enroll Now</span>
+
+              <i class="fa-solid fa-caret-right bg-black p-2 text-white rounded-full w-4 h-4"></i>
+            </div>
+          </button>
+
+          <a href="#" class="ml-5 text-md font-semibold underline">Learn more</a>
+        </div>
+      </div>
+      <div class="flex-1 p-10">
+        <div class="hero_images flex flex-row space-x-3 items-center justify-center">
+          <div class="flex-1">
+            <img class="rounded-lg aspect-square object-cover"
+              src="https://t4.ftcdn.net/jpg/03/53/54/59/360_F_353545903_mRzPbMkt2trPAI1Q5VjZKp69Be72axVC.jpg" alt="">
+          </div>
+          <div class="flex-1">
+            <img class="rounded-lg aspect-square object-cover"
+              src="https://the-post-assets.sgp1.digitaloceanspaces.com/2023/06/FEU_thumbnail.png" alt="">
+          </div>
+        </div>
+        <blockquote class="text-xl italic font-semibold text-slate-500 mt-4 ">
+          <svg class="w-8 h-8 text-gray-400 mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor" viewBox="0 0 18 14">
+            <path
+              d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
+          </svg>
+          <p>"FEU Banking keeps me away from any struggle in handling money. From tuition to cafeteria payment, they got
+            it all covered."</p>
+          <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+
+            <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-700">
+              <cite class="pe-3 font-medium text-gray-900">Juan de la Cruz</cite>
+              <cite class="ps-3 text-sm text-gray-500">Student at FEU Diliman</cite>
+            </div>
+          </figcaption>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-black text-white pt-8 pb-4" id="clients">
+    <h2 class="text-center text-2xl mb-2 font-bold leading-8 ">Our Clients</h2>
+    <p class="text-center text-lg font-extralight leading-8 ">We are trusted by the Philippines' most innovative
+      universities
+      </h2>
+
+    <div
+      class="logos group relative overflow-hidden whitespace-nowrap  py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
+      <div class="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+        <img class="mx-4 inline h-16" src="https://upload.wikimedia.org/wikipedia/en/9/94/Feufernlogo.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/1/1f/Systems_Technology_Institute.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/AMA_Computer_University_%28logo%29.svg/800px-AMA_Computer_University_%28logo%29.svg.png" />
+        <img class="mx-4 inline h-16"
+          src="https://mapua.sgp1.cdn.digitaloceanspaces.com/cms_images/pu9BiF7q4UWPh3wYvzBmgiz3e8XAQgColck8E0I4.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/2/24/Seal_of_the_University_of_Santo_Tomas.svg" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Ateneo_de_Manila_University_seal.svg/1280px-Ateneo_de_Manila_University_seal.svg.png" />
+        <img class="mx-4 inline h-16" src="https://www.adamson.edu.ph/2018/img/adulogo-white.png" />
+      </div>
+      <div class="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+        <img class="mx-4 inline h-16" src="https://upload.wikimedia.org/wikipedia/en/9/94/Feufernlogo.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/1/1f/Systems_Technology_Institute.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/AMA_Computer_University_%28logo%29.svg/800px-AMA_Computer_University_%28logo%29.svg.png" />
+        <img class="mx-4 inline h-16"
+          src="https://mapua.sgp1.cdn.digitaloceanspaces.com/cms_images/pu9BiF7q4UWPh3wYvzBmgiz3e8XAQgColck8E0I4.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/2/24/Seal_of_the_University_of_Santo_Tomas.svg" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Ateneo_de_Manila_University_seal.svg/1280px-Ateneo_de_Manila_University_seal.svg.png" />
+        <img class="mx-4 inline h-16" src="https://www.adamson.edu.ph/2018/img/adulogo-white.png" />
+      </div>
+      <div class="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+        <img class="mx-4 inline h-16" src="https://upload.wikimedia.org/wikipedia/en/9/94/Feufernlogo.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/1/1f/Systems_Technology_Institute.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/AMA_Computer_University_%28logo%29.svg/800px-AMA_Computer_University_%28logo%29.svg.png" />
+        <img class="mx-4 inline h-16"
+          src="https://mapua.sgp1.cdn.digitaloceanspaces.com/cms_images/pu9BiF7q4UWPh3wYvzBmgiz3e8XAQgColck8E0I4.png" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/2/24/Seal_of_the_University_of_Santo_Tomas.svg" />
+        <img class="mx-4 inline h-16"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Ateneo_de_Manila_University_seal.svg/1280px-Ateneo_de_Manila_University_seal.svg.png" />
+        <img class="mx-4 inline h-16" src="https://www.adamson.edu.ph/2018/img/adulogo-white.png" />
+      </div>
+    </div>
+
+    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+      <dl class="grid max-w-screen-md gap-8 mx-auto sm:grid-cols-3 text-white">
+        <div class="flex flex-col items-center justify-center">
+          <dt class="mb-2 text-3xl md:text-4xl font-extrabold">50+</dt>
+          <dd class="font-light text-gray-400">universities</dd>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <dt class="mb-2 text-3xl md:text-4xl font-extrabold">10M+</dt>
+          <dd class="font-light text-gray-400">students</dd>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <dt class="mb-2 text-3xl md:text-4xl font-extrabold">₱1B+</dt>
+          <dd class="font-light text-gray-400">transactions</dd>
+        </div>
+      </dl>
+    </div>
+
+
+    <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <h2 class="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl">
+        Let our actions speak for us
+      </h2>
+
+      <div class="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt=""
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp7L0JJFc6vN2UBQv3UPekETb0Qvo8Vwx_VM3bFcQ6VGhpNWSWfNW4sWGJStqyRwLn-Ls&usqp=CAU"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Far Eastern University</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
+              consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
+              error officiis atque voluptates magnam!
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt=""
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlv6s57sfIcLhgzoREcLrJWu696uYlplGXhg&s"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Adamson University</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad mollitia rerum quo unde
+              neque atque molestias quas pariatur! Sint, maxime?
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt="" src="https://cumulusassociation.org/wp-content/uploads/2021/10/1195_logo_1280.jpg"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">University of Santo Tomas</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit esse delectus,
+              maiores fugit, reiciendis culpa inventore sint accusantium libero.
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt="" src="https://www.ama.edu.ph/wp-content/uploads/2017/05/Site_icon_512pix.jpg"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">AMA College</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga?
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt=""
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKlKOgFVPOr0-cbz6pYrA9WrRO3oH2bQdN3A&s"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">STI College</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate officia natus
+              blanditiis rerum incidunt ex autem repudiandae doloribus eveniet quia? Culpa commodi
+              quae atque perspiciatis? Provident, magni beatae saepe porro aspernatur facere neque
+              sunt possimus assumenda perspiciatis aperiam quisquam animi libero voluptatem fuga.
+              Repudiandae, facere? Nemo reprehenderit quas ratione quis.
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt="" src="https://www.dlsu.edu.ph/wp-content/uploads/2024/04/DLSU-LOGO.png"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">De La Salle University</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum. Nobis laborum
+              praesentium necessitatibus vero.
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt="" src="https://upload.wikimedia.org/wikipedia/en/7/77/OLFU_official_logo.png"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Our Lady of Fatima University</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quaerat quasi ipsa
+              repellendus quam! Beatae pariatur quia distinctio fugit repellendus repudiandae nostrum
+              consectetur quibusdam quo.
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt="" src="https://upload.wikimedia.org/wikipedia/en/9/9f/University_of_the_East_seal.png"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">University of the East</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, modi!
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="mb-8 sm:break-inside-avoid">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img alt=""
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYOSJLxJrH_YPDNORiHc96qdRZLuC7Vvxfw&s"
+                class="size-14 rounded-full object-cover" />
+
+              <div>
+                <div class="flex justify-start gap-0.5 text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Mapua University</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam numquam, unde molestiae
+              commodi temporibus dicta.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="about" class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    <span class="uppercase text-slate-600">Learn more about us</span>
+    <h1 class="uppercase font-bold text-4xl">Our story is <span class="font-black underline">your success.</span></h1>
+
+    <img class="rounded-xl my-8 h-96 w-full object-cover"
+      src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="">
+
+    <ol class="relative border-s border-gray-200 ">
+      <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white ">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400">January 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 ">Version 1.0 🚀</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 ">We have release our banking services.</p>
+      </li>
+      <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white ">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400">March 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 ">Merchants Onboarding 🤝</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 ">Onboarded 300+ merchants</p>
+      </li>
+      <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white ">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400">June 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 ">Univerisities Onboarding 🏫</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 ">Onboarded 30+ local universities in the Philippines.</p>
+      </li>
+      <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white ">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400">August 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 ">Product Roll-out to Students 👨‍🎓</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 ">Students from enrolled universities are now eligible for
+          cards</p>
+      </li>
+      <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white ">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400">January 2024</time>
+        <h3 class="text-lg font-semibold text-gray-900 ">Tuition Installment 😍</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 ">Eligible students are now pre-approved for tuition payments
+          through our installment channels.</p>
+      </li>
+      <li class="mb-10 ms-4">
+        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white ">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400">Now</time>
+        <h3 class="text-lg font-semibold text-gray-900 ">Be part of our team</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 ">We are interested in your university, reach out to us to
+          learn more details.</p>
+        <a href="#contact"
+          class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700">Learn
+          more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 14 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9" />
+          </svg></a>
+      </li>
+
+
+    </ol>
+
+
+  </section>
+
+  <div class="w-full bg-slate-100">
+    <section id="services" class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16 ">
+      <h1 class="font-bold text-4xl">Better banking starts with us.</h1>
+      <h1 class="font-bold text-4xl text-slate-500 mb-8">Upscale your payroll and tuition services.</h1>
+
+
+      <div class="my-4">
+        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-styled-tab"
+          data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="bg-yellow-400 rounded-xl w-40"
+          data-tabs-inactive-classes="text-gray-500 hover:text-gray-600" role="tablist">
+          <li class="me-2" role="presentation">
+            <button class="inline-block p-4 rounded-t-lg" id="profile-styled-tab" data-tabs-target="#styled-profile"
+              type="button" role="tab" aria-controls="profile" aria-selected="false">Banking Solutions</button>
+          </li>
+          <li class="me-2" role="presentation">
+            <button class="inline-block p-4 rounded-t-lg hover:text-gray-600" id="dashboard-styled-tab"
+              data-tabs-target="#styled-dashboard" type="button" role="tab" aria-controls="dashboard"
+              aria-selected="false">Cards</button>
+          </li>
+          <li class="me-2" role="presentation">
+            <button class="inline-block p-4 rounded-t-lg hover:text-gray-600" id="settings-styled-tab"
+              data-tabs-target="#styled-settings" type="button" role="tab" aria-controls="settings"
+              aria-selected="false">Installments</button>
+          </li>
+        </ul>
+      </div>
+
+      <div id="default-styled-tab-content">
+        <div class="hidden p-4" id="styled-profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="flex md:flex-row flex-col h-auto md:space-x-12 md:space-y-0 space-y-12">
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-solid fa-chart-simple fa-4x bg-gradient-to-r from-cyan-500 to-blue-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Analytics-first approach</h1>
+              <p class="text-slate-400 mt-4">Our analytics-first approach to banking allows us to provide you with
+                valuable insights and personalized recommendations.</p>
+            </div>
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-solid fa-people-robbery fa-4x bg-gradient-to-r from-violet-500 to-fuchsia-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Fraud Detection</h1>
+              <p class="text-slate-400 mt-4">Our advanced fraud detection system ensures the security of your
+                transactions and protects you from unauthorized activities.</p>
+            </div>
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-solid fa-earth-asia fa-4x bg-gradient-to-r from-purple-500 to-pink-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Global Accessibility</h1>
+              <p class="text-slate-400 mt-4">No matter where you are, our bank services will provide 100% coverage rate
+                in the world. Reach out to us to see if your country is supported.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hidden p-4 rounded-lg" id="styled-dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+          <div class="flex md:flex-row flex-col h-auto md:space-x-12 md:space-y-0 space-y-12">
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-regular fa-credit-card fa-4x bg-gradient-to-r from-cyan-500 to-blue-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Credit cards</h1>
+              <p class="text-slate-400 mt-4">Experience the convenience and security of our credit cards, designed to
+                fit your lifestyle. Enjoy competitive rates, reward points on every purchase, and fraud protection that
+                keeps you safe wherever you go.</p>
+            </div>
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-solid fa-credit-card fa-4x bg-gradient-to-r from-violet-500 to-fuchsia-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Debit Cards</h1>
+              <p class="text-slate-400 mt-4">Enjoy direct access to your bank account with our secure and convenient
+                debit cards. Benefit from instant transactions, easy tracking of your spending, and enhanced security
+                features to protect your finances.</p>
+            </div>
+
+          </div>
+          <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mt-6">
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-visa fa-2x text-slate-800"></i>
+                <span>Visa</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-mastercard fa-2x text-slate-800"></i>
+                <span>Mastercard</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-stripe fa-2x text-slate-800"></i>
+                <span>Stripe</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-paypal fa-2x text-slate-800"></i>
+                <span>PayPal</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-jcb fa-2x text-slate-800"></i>
+                <span>JCB</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-discover fa-2x text-slate-800"></i>
+                <span>Discover</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-diners-club fa-2x text-slate-800"></i>
+                <span>Diners Club</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-apple-pay fa-2x text-slate-800"></i>
+                <span>Apple Pay</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-amex fa-2x text-slate-800"></i>
+                <span>American Express</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-visa fa-2x text-slate-800"></i>
+                <span>Visa</span>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 text-center align-middle">
+              <div class="flex justify-between align-middle items-center">
+                <i class="fa-brands fa-cc-amazon-pay fa-2x text-slate-800"></i>
+                <span>Amazon Pay</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden p-4 rounded-lg" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
+          <div class="flex md:flex-row flex-col h-auto md:space-x-12 md:space-y-0 space-y-12">
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-solid fa-money-bill fa-4x bg-gradient-to-r from-cyan-500 to-blue-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Payroll</h1>
+              <p class="text-slate-400 mt-4">Automate your payroll system, ensuring proper money and time disbursement.
+              </p>
+            </div>
+            <div class="flex-1 h-full w-full bg-white p-5 rounded-lg">
+              <i
+                class="fa-solid fa-cash-register fa-4x bg-gradient-to-r from-violet-500 to-fuchsia-500 p-5 rounded-lg text-white"></i>
+              <h1 class="font-bold mt-6">Installments</h1>
+              <p class="text-slate-400 mt-4">Giving fair rates to students is one of our core values. Divide payments
+                over 3, 6, and 12 months for your students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="contact" class="mt-4 mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    <div class="grid sm:grid-cols-2 items-start gap-16 p-4 bg-white">
+      <div>
+        <h1 class="text-gray-800 text-3xl font-extrabold">Connect with us</h1>
+        <p class="text-sm text-gray-500 mt-4">Start integrating your university with our banking platform. Customer
+          satisfication and reliability is our goal, ensuring everything is fair and proper.</p>
+
+        <div class="mt-12">
+          <h2 class="text-gray-800 text-base font-bold">Email</h2>
+          <ul class="mt-4">
+            <li class="flex items-center">
+              <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#007bff'
+                  viewBox="0 0 479.058 479.058">
+                  <path
+                    d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                    data-original="#000000" />
+                </svg>
+              </div>
+              <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
+                <small class="block">Mail</small>
+                <strong>202310041@feudiliman.edu.ph</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-12">
+          <h2 class="text-gray-800 text-base font-bold">Phone</h2>
+          <ul class="mt-4">
+            <li class="flex items-center">
+              <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-phone text-[#007bff]"></i>
+              </div>
+              <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
+                <small class="block">Telephone</small>
+                <strong>(02) 345 6789</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <form class="ml-auto space-y-4">
+        <input type='text' placeholder='Name'
+          class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
+        <input type='email' placeholder='Email'
+          class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
+        <input type='text' placeholder='Subject'
+          class="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent" />
+        <textarea placeholder='Message' rows="6"
+          class="w-full rounded-md px-4 bg-gray-100 text-gray-800 text-sm pt-3 outline-blue-500 focus:bg-transparent"></textarea>
+        <button type='button'
+          class="text-white bg-blue-500 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6">Send</button>
+      </form>
+    </div>
+  </section>
+
+
+
+  <footer class=" bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+          <a href="#" class="flex items-center">
+            <img src="icon.png" class="h-8 me-3" alt="Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Tamabank</span>
+          </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div>
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Sitemap</h2>
+            <ul class="text-gray-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Homepage</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+            <ul class="text-gray-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline ">Facebook</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Instagram</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
+            <ul class="text-gray-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm sm:text-center text-gray-400">© 2024 <a href="#" class="hover:underline">Kirk Charles
+            Niverba</a>. All Rights Reserved.
+        </span>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="module" src="/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  <script src="https://kit.fontawesome.com/1c28967dbc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
