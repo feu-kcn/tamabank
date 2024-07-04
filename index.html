@@ -12,10 +12,19 @@
   <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <style>
+    html {
+      scroll-padding-top: 60px;
+    }
+
+    body {
+      margin-top: 60px;
+    }
+  </style>
 </head>
 
 <body>
-  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full z-10 ">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="icon.png" class="h-8" alt="logo" />
@@ -35,7 +44,7 @@
           class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="#home"
-              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               aria-current="page">Home</a>
           </li>
           <li>
@@ -60,7 +69,7 @@
     </div>
   </nav>
 
-  <section id="home">
+  <section id="home" class="mt-12">
     <div class="flex flex-col md:flex-row font-inter items-center justify-center ">
       <div class="flex-1 p-12">
 
@@ -84,8 +93,14 @@
       <div class="flex-1 p-10">
         <div class="hero_images flex flex-row space-x-3 items-center justify-center">
           <div class="flex-1">
-            <img class="rounded-lg aspect-square object-cover"
-              src="https://t4.ftcdn.net/jpg/03/53/54/59/360_F_353545903_mRzPbMkt2trPAI1Q5VjZKp69Be72axVC.jpg" alt="">
+            <div class="rounded-lg aspect-square object-cover" style="
+                background: url(https://t4.ftcdn.net/jpg/03/53/54/59/360_F_353545903_mRzPbMkt2trPAI1Q5VjZKp69Be72axVC.jpg);
+                background-size: cover;
+                -webkit-transition: all .8s ease-in-out;
+                -moz-transition: all .8s ease-in-out;
+                transition: all .8s ease-in-out;
+                " alt="" id="dynamicStudentPhoto">
+            </div>
           </div>
           <div class="flex-1">
             <img class="rounded-lg aspect-square object-cover"
@@ -98,13 +113,14 @@
             <path
               d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
-          <p>"FEU Banking keeps me away from any struggle in handling money. From tuition to cafeteria payment, they got
-            it all covered."</p>
+          <span id="typingElement"></span>
           <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
 
             <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-700">
-              <cite class="pe-3 font-medium text-gray-900">Juan de la Cruz</cite>
-              <cite class="ps-3 text-sm text-gray-500">Student at FEU Diliman</cite>
+              <cite class="pe-3 font-medium text-gray-900 transition-all" id="dynamicStudentName">Juan de la Cruz</cite>
+              <cite class="ps-3 text-sm text-gray-500">Student at <span id="dynamicStudentCollege"
+                  class="transition-all">FEU
+                  Diliman</span></cite>
             </div>
           </figcaption>
         </blockquote>
@@ -914,9 +930,87 @@
   </footer>
 
 
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script type="module" src="/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
   <script src="https://kit.fontawesome.com/1c28967dbc.js" crossorigin="anonymous"></script>
+  <script>
+    var images = [
+      "https://t4.ftcdn.net/jpg/03/53/54/59/360_F_353545903_mRzPbMkt2trPAI1Q5VjZKp69Be72axVC.jpg",
+      "https://st4.depositphotos.com/1641220/27453/i/450/depositphotos_274534086-stock-photo-portrait-happy-smiling-successful-confident.jpg",
+      "https://media.istockphoto.com/id/1456949764/photo/photo-of-group-asian-student-outside.jpg?s=612x612&w=0&k=20&c=SaNYjPU4eB3OJcUoqXi8tvIV9iSKLrpt6imJv6Paypk=",
+      "https://st4.depositphotos.com/2000559/23256/i/450/depositphotos_232569398-stock-photo-boy-student-memory-loss-books.jpg",
+      "https://media.istockphoto.com/id/143071358/photo/graduate-smiling-outdoors.jpg?s=612x612&w=0&k=20&c=1e9zo6x3mcUORtWBkQlzL0-PoE8fvp_NsMU4VeHMmwA=",
+    ];
+
+    var names = [
+      "Juan de la Cruz",
+      "Maria Clara",
+      "Miguel Tan Felix",
+      "Jose Rizal",
+      "Andres Bonifacio",
+    ];
+
+    var colleges = [
+      "FEU Diliman",
+      "FEU Alabang",
+      "FEU Manila",
+      "FEU Tech",
+      "FEU Makati",
+    ];
+
+
+    var photoElement = document.getElementById('dynamicStudentPhoto');
+    var nameElement = document.getElementById('dynamicStudentName');
+    var collegeElement = document.getElementById('dynamicStudentCollege');
+
+    new Typed('#typingElement', {
+      strings: [
+        "Tamabank keeps me away from any struggle in handling money. From tuition to cafeteria payment, they got it all covered.",
+        "It makes managing my finances a breeze. Whether it's paying rent or grocery shopping, they've got me covered.",
+        "Tamabank takes the stress out of financial management. From online shopping to paying for my gym membership, it's all taken care of.",
+        "With Tamabank, handling money is hassle-free. From utilities to entertainment expenses, they've simplified everything.",
+        "Tamabank ensures I never worry about payments again. From my phone bill to dining out, they've got everything sorted.",
+      ],
+      loop: true,
+      loopCount: Infinity,
+      cursorChar: '|',
+      backDelay: 5000,
+      backSpeed: 10,
+      typeSpeed: 50,
+      preStringTyped: (arrayPos, self) => {
+        photoElement.style.backgroundImage = `url(${images[arrayPos]})`;
+        nameElement.innerText = names[arrayPos];
+        collegeElement.innerText = colleges[arrayPos];
+      }
+    })
+
+    const sections = document.querySelectorAll("section");
+    const navLi = document.querySelectorAll("#navbar-default li a");
+
+    const active = ["md:bg-blue-700", "md:text-blue-700", "md:dark:text-blue-500", ""];
+
+    console.log(sections, navLi);
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - sectionHeight / 3) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLi.forEach((li) => {
+        console.log();
+        li.className = "block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
+
+        if (li.href.split('#')[1] == current) {
+          li.className = "block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500";
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
